@@ -6,3 +6,5 @@ streamlit
 tensorboard
 scikit-learn
 ipykernel
+keras
+scikeras
