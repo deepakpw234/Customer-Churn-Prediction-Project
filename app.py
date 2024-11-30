@@ -10,13 +10,13 @@ import streamlit as st
 
 model = load_model("model.h5")
 
-with open('artifacts\label_encoder_gender.pkl',"rb") as file:
+with open('label_encoder_gender.pkl',"rb") as file:
     label_encoder_gender = pickle.load(file)
 
-with open('artifacts\one_hot_encoder_geo.pkl',"rb") as file:
+with open('one_hot_encoder_geo.pkl',"rb") as file:
     one_hot_encoder_geo = pickle.load(file)
 
-with open("artifacts\standard_scaler.pkl","rb") as file:
+with open("standard_scaler.pkl","rb") as file:
     scaler = pickle.load(file)
 
 # Setting up the Streamlit
